@@ -5,6 +5,3 @@ install:
   - pip3 install yapf
 script:
   - yapf --diff -r .
-branches:
-  only:
-    - master
